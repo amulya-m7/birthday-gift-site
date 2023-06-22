@@ -1,0 +1,110 @@
+@font-face {
+  font-family: bdayfont;
+  src: url("HappyMonkey-Regular.ttf");
+}
+
+body {
+  font-family: bdayfont;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(plum, #f5a4cc);
+}
+
+.content {
+  color: azure;
+  text-shadow: 0px 0px 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bday-age {
+  background-color: purple;
+  padding: 5px 10px;
+  margin: 5px 0 10px 0;
+  border-radius: 5px;
+}
+
+#bday-date {
+  background-color: purple;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#bday-img {
+  width: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 5px solid purple;
+  margin-bottom: 10px;
+}
+
+.gift-cover {
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+  /* display: flex; */
+  margin: 0 auto;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  border: 4px solid azure;
+  border-radius: 2%;
+  background-image: url(images/gift-cover.jpg);
+}
+
+#gif-happy:hover {
+  background-image: url(images/happy.webp);
+  background-size: cover;
+}
+
+#gif-rxn:hover {
+  background-image: url(images/excited.webp);
+  background-size: cover;
+}
+
+#gif-you:hover {
+  background-image: url(images/you.webp);
+  background-size: cover;
+}
+
+#gif-badass:hover {
+  background-image: url(images/badass.webp);
+  background-size: cover;
+}
+
+#gif-cheers {
+  height: 200px;
+  background-size: cover;
+}
+
+#gif-cheers:hover {
+  background-image: url(images/cheers.webp);
+  background-size: cover;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-instructions {
+  margin-top: 0px;
+}
+
+.bday-gifs {
+  margin-top: 40px;
+}
+
+.contact {
+  color: azure;
+}
+
+.contact:hover {
+  color: indigo;
+}
+
+.footer {
+  margin: 30px auto 10px;
+  font-style: italic;
+}
